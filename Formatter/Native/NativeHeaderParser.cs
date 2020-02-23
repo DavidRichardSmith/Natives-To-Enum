@@ -128,7 +128,7 @@ namespace Formatter.Native
 		/// <returns></returns>
 		private string getNativeName(string line)
         {
-            // retrieve start of native name by by finding the first space after the native return value type.
+            // retrieve start of native name by finding the first space after the native return value type.
 			int index  = line.Substring(8, line.Length - 8).IndexOf(" ") + 9;
 
             // retrieve the length by finding the start of the function arguments.
